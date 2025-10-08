@@ -8,7 +8,7 @@ export default function App() {
       <header className="border-b">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="import logo from './assets/marketing.jpg.png'">MM</div>
+            <div className="import logo from './assets/marketing.jpg.png'"></div>
             <div>
               <h1 className="text-lg font-semibold">MMAS Marketing</h1>
               <p className="text-xs text-gray-500">Estrategia, creatividad y resultados</p>
