@@ -8,8 +8,7 @@ export default function App() {
       <header className="border-b">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="import logo from './assets/marketing.jpg.png'"></div>
-    <img src={logo} alt="MMAS Logo" className="w-12 h-12 object-contain" />
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-mmasBlue to-mmasGold flex items-center justify-center text-white font-bold">MM</div>
             <div>
               <h1 className="text-lg font-semibold">MMAS Marketing</h1>
               <p className="text-xs text-gray-500">Estrategia, creatividad y resultados</p>
@@ -83,7 +82,7 @@ export default function App() {
                 <img src={`/src/assets/project-${i}.jpg`} alt={`Proyecto ${i}`} className="w-full h-40 object-cover" />
                 <div className="p-4">
                   <h4 className="font-semibold">Proyecto {i}</h4>
-                  <p className="text-sm text-gray-500 mt-2">Campaña integrada con +50% de incremento en conversiones, visibilidad y programación de citas.</p>
+                  <p className="text-sm text-gray-500 mt-2">Campaña integrada con +50% de incremento en conversiones.</p>
                 </div>
               </article>
             ))}
@@ -96,7 +95,7 @@ export default function App() {
             <div className="flex items-center gap-4 bg-white border rounded-lg p-4">
               <div className="w-12 h-12 rounded-full bg-mmasBlue flex items-center justify-center text-white font-semibold">AG</div>
               <div>
-                <div className="font-medium">Andrés Peñuelas </div>
+                <div className="font-medium">Andrés G.</div>
                 <div className="text-sm text-gray-500">Director de estrategia</div>
               </div>
             </div>
