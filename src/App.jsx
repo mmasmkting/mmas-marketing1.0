@@ -95,7 +95,7 @@ export default function App() {
             <div className="flex items-center gap-4 bg-white border rounded-lg p-4">
               <div className="w-12 h-12 rounded-full bg-mmasBlue flex items-center justify-center text-white font-semibold">AG</div>
               <div>
-                <div className="font-medium">Andrés G.</div>
+                <div className="font-medium">Andrés Peñuelas.</div>
                 <div className="text-sm text-gray-500">Director de estrategia</div>
               </div>
             </div>
