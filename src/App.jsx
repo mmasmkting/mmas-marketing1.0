@@ -9,7 +9,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="import logo from './assets/marketing.jpg.png'"></div>
-            <img src={logo} alt="MMAS Logo" className="w-12 h-12 object-contain" />
+    
             <div>
               <h1 className="text-lg font-semibold">MMAS Marketing</h1>
               <p className="text-xs text-gray-500">Estrategia, creatividad y resultados</p>
